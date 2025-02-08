@@ -13,6 +13,6 @@ public class Produto {
     }
 
     public String obterDetalhes(){
-        return String.format("ID: %d | Nome: %s | Preço: %f", this.id, this.nome, this.preco);
+        return String.format("ID: %d | Nome: %s | Preço: %.2f", this.id, this.nome, this.preco);
     }
 }
